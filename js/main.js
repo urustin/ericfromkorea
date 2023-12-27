@@ -7,12 +7,14 @@ var phoneResult = parser.getResult().device.type;
 console.log(parser.getResult());
 
 function ajaxLoad() {
-  if(phoneResult != "mobile"){
-    // $("#magic-cursor").css("opacity","0");
-    mouse_move();
-    animate_button();
+  // if(phoneResult == "mobile"){ phone check, but after video, it looks too slow so just removed it.
+  if(true){
+    $("#magic-cursor").css("opacity","0");
+    // mouse_move();
+    // animate_button();
     
   }
+  
   // mouse_move();
   typist();
   // animate_button();

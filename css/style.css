@@ -66,10 +66,15 @@ header{
     position: absolute;
 }
 
-header .logo{
+/* header .logo{
     float: left;
     position: fixed;
+    width: 4rem;
+    height: 4rem;
 }
+header .logo img{
+    width: 100%;
+} */
 
 header .hamburger{
     float: right;
@@ -715,7 +720,7 @@ section.about{
 .services .item .right-content{
     float: left;
     width: 80%;
-    padding: 0 30px 0 7px;
+    padding: 0 30px 0 20px;
 }
 
 .services .item .right-content .title{
