@@ -133,7 +133,7 @@ header .hamburger span:last-child{
 }
 
 .hero{
-    background-color: #444;
+    /* background-color: #444; */
     width: 100%;
     height: 100vh;
     transition: 1s;
