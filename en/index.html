@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="/css/style.css"/>
 
   	<!--[if lt IE 9]>
   	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -16,11 +16,11 @@
   	<![endif]--> 
     
     <!-- FAVICON  -->
-    <link rel="shortcut icon" href="img/favico.png">    
+    <!-- <link rel="shortcut icon" href="/img/favico.png">     -->
 
   	<!-- Font icons --> 
-    <link rel="stylesheet" href="icon-fonts/fontawesome-5.12.0/css/all.min.css"/>
-    <link rel="stylesheet" type="text/css" href="icon-fonts/flaticon/flaticon.css" />
+    <link rel="stylesheet" href="/icon-fonts/fontawesome-5.12.0/css/all.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/icon-fonts/flaticon/flaticon.css" />
 
 	   <!--Font -->
     <link rel="stylesheet" href="https://use.typekit.net/utg8fym.css">
@@ -39,12 +39,12 @@
 <!-- HEADER SECTION
 ================================================== --> 
 <header>
-<a href="index.html" class="logo">
+<!-- <a href="index.html" class="logo">
   <img src="images/logo.png" alt="">
-</a>
+</a> -->
 
 <div class="hamburger icon-wrap">
-<div class=" button-icon">
+<div class="button-icon">
   <span></span>
   <span></span>
 </div>
@@ -69,23 +69,24 @@
 <!-- HOME SECTION
 ================================================== --> 
 <section id="hero" class="hero">
-  <div class="container">
+  <div class="container" style="width: 100%; margin-left: 0%;">
     <div class="outter">
-      <div class="inner">
+      <div class="video-wrapper"> 
+        <video loop="" muted="" playsinline autoplay style="opacity: 0.5;">
+           
+          <!-- <source src="./images/works/main/demo02.mp4" type="video/mp4"> -->
+          <source src="/images/works/main/demo01.webm" type="video/webm">
+       </video>  
+      </div> 
+      <div class="inner" style="width: 90%;">
         <span class="hero-little">Hello World! My name is Eric.</span>
         <h1 class="hero-title">Make digital <br> <span id="element" data-typist="experiences,things">products</span>.</h1>
-        <!-- <div class="video-wrapper"> 
-          <video loop="" muted="" playsinline autoplay>
-             
-            <source src="" type="video/mp4">
-            <source src="" type="video/webm">
-         </video>  
-       </div>  -->
-       <div class="hero-image overlay" style="background-image: url(images/works/work-1/none.jpg)"></div>
+        
+       <div class="hero-image overlay" style="background-image: url(/images/works/work-1/none.jpg)"></div>
         <div class="arrow icon-wrap">
-        <svg class="arrow-svg button-icon" xmlns="http://www.w3.org/2000/svg" width="14.486" height="18.412" viewBox="0 0 14.486 18.412">
+          <svg class="arrow-svg button-icon" xmlns="http://www.w3.org/2000/svg" width="14.486" height="18.412" viewBox="0 0 14.486 18.412">
           <path d="M7.073,26.241h0L0,19.172l1.414-1.415,4.829,4.829V8h2V22.586l4.829-4.829,1.415,1.415-7.241,7.24Z" transform="translate(0 -8)"></path>
-        </svg>
+          </svg>
         </div>
       </div>
     </div>
@@ -112,8 +113,8 @@
       <!-- a work -->
       <a href="./work-1.html" class="col-xl-4 col-md-6 grid-item cg wow fadeInUp" data-wow-delay="0.4s" data-title="LG Stretchable Display" data-type="ajax-load">
           <figure class="portfolio-item 3d">                 
-            <div class="image" style="background-image:url(images/works/work-1/01.jpg)">     
-                <img src="images/works/work-1/01.jpg" alt=""/>
+            <div class="image" style="background-image:url(/images/works/work-1/01.jpg)">     
+                <img src="/images/works/work-1/01.jpg" alt=""/>
             </div>
             <div class="item-cat-mask">
               <span>3D</span>
@@ -130,8 +131,8 @@
                       <source src="images/works/work-2/01.webm" type="video/webm">
                 </video>   
               </div>   -->                 
-            <div class="image" style="background-image:url(images/works/work-2/01.jpeg)">     
-              <img src="images/works/work-2/01.jpeg" alt=""/>
+            <div class="image" style="background-image:url(/images/works/work-2/01.jpeg)">     
+              <img src="/images/works/work-2/01.jpeg" alt=""/>
           </div>
               <div class="item-cat-mask">
                 <span>3D</span>
@@ -142,8 +143,8 @@
           <!-- a work -->
           <a href="work-3.html" class="col-xl-4 col-md-6 grid-item cg wow fadeInUp" data-wow-delay="0.6s" data-title="IDEA" data-type="ajax-load">
               <figure class="portfolio-item">            
-                <div class="image"  style="background-image:url(images/works/work-3/02.jpg)">     
-                    <img src="images/works/work-3/02.jpg" alt=""/>
+                <div class="image"  style="background-image:url(/images/works/work-3/02.jpg)">     
+                    <img src="/images/works/work-3/02.jpg" alt=""/>
                 </div> 
                 <div class="item-cat-mask">
                   <span>3D</span>
@@ -154,8 +155,8 @@
             <!-- a work -->
             <a href="work-4.html" class="col-xl-4 col-md-6 grid-item etc wow fadeInUp" data-wow-delay=".7s" data-title="Avatar Singer" data-type="ajax-load">
                 <figure class="portfolio-item">                 
-                  <div class="image" style="background-image:url(images/works/work-4/01.jpg)">     
-                      <img src="images/works/work-4/01.jpg" alt=""/>
+                  <div class="image" style="background-image:url(/images/works/work-4/01.jpg)">     
+                      <img src="/images/works/work-4/01.jpg" alt=""/>
                   </div>
                   <div class="item-cat-mask">
                     <span>ETC </span>
@@ -164,10 +165,10 @@
                 </figure>
               </a>
               <!-- a work -->
-              <a href="work-5.html" class="col-xl-4 col-md-6 grid-item color wow fadeInUp" data-wow-delay=".8s" data-title="The Ripple" data-type="ajax-load">
+              <a href="./work-5.html" class="col-xl-4 col-md-6 grid-item color wow fadeInUp" data-wow-delay=".8s" data-title="The Ripple" data-type="ajax-load">
                   <figure class="portfolio-item">                 
-                    <div class="image" style="background-image:url(images/works/work-5/01.jpg)">     
-                        <img src="images/works/work-5/01.jpg" alt="" />
+                    <div class="image" style="background-image:url(/images/works/work-5/01.jpg)">     
+                        <img src="/images/works/work-5/01.jpg" alt="" />
                     </div>
                     <div class="item-cat-mask">
                       <span>Color Grading </span>
@@ -176,10 +177,10 @@
                   </figure>
                 </a>
                 <!-- a work -->
-                <a href="work-6.html" class="col-xl-4 col-md-6 grid-item etc wow fadeInUp" data-wow-delay=".9s" data-title="SMTM777" data-type="ajax-load">
+                <a href="./work-6.html" class="col-xl-4 col-md-6 grid-item etc wow fadeInUp" data-wow-delay=".9s" data-title="SMTM777" data-type="ajax-load">
                   <figure class="portfolio-item">                 
-                    <div class="image" style="background-image:url(images/works/work-6/01.jpg)">     
-                        <img src="images/works/work-6/01.jpg" alt=""/>
+                    <div class="image" style="background-image:url(/images/works/work-6/01.jpg)">     
+                        <img src="/images/works/work-6/01.jpg" alt=""/>
                     </div>
                     <div class="item-cat-mask">
                       <span>ETC</span>
@@ -187,7 +188,7 @@
                     </div>
                   </figure>
                 </a>  
-  </div> <!--  masonry end -->
+              </div> <!--  masonry end -->
               <!-- pagination -->
               <div class="text-center load-more top_45 bottom_60 wow fadeInUp" data-wow-delay="1.2s">
                 <button class="site-btn" data-tilt> Load more
@@ -211,23 +212,23 @@
       <div class="col-xl-6 wow fadeInUp">
       <h2 class="section-title">Eric Son</h2>
       <h3 class="second-title">Profile</h3>
-      <p><참여><br>
-        LG 스트레쳐블 디스플레이 (CG)<br>
-        삼성 노트북 Nine (모션그래픽)<br>
-        MBN 아바타싱어 (LED)<br>
-        쇼미더머니777 (촬영,편집)
+      <p><Participate><br>
+        LG Stretchable Display (CG)<br>
+        Samsung Notebook Nine (motion graphics)<br>
+        MBN Avatar Singer (LED)<br>
+        Show Me The Money 777 (filming, editing)
         <br> <br> 
-        <수상><br>
-        영화 "물비늘" (색보정, CG, 음악감독) 2022 부산국제영화제 / 서울독립영화제 초청<br>
-        영화 "갈매기" (색보정) 2022 들꽃영화상, 산세바스타인 영화제 TVE-Another Look 상<br>
-        영화 "종달리" (색보정, 음악감독) 2017 제22회 인디포럼 개막작<br>
-        영화 "서울누나" (음악감독) 대단한 단편영화제 2016 은관상<br>
-        VR "답장이 없는 너에게" (CG, 음악감독) 2016 미래창조과학부 장관상</p>
+        <Award><br>
+        Film "Glitter" (color correction, CG, music director) Invited to the 2022 Busan International Film Festival and the Seoul Independent Film Festival<br>
+        Film "Seagull" (color correction) 2022 Deulkkot Film Awards, San Sebastian Film Festival TVE-Another Look Award<br>
+        Film "Jongdari" (color correction, music director) 2017 22nd Indie Forum Opening Film<br>
+        Film "Seoul Sister" (music director) 2016 Great Short Film Festival Silver Prize<br>
+        VR "To You, Unresponsive" (CG, music director) 2016 Minister of Science, ICT and Future Planning Award</p>
       </div>
       <!-- right image -->
       <div class="col-xl-4 offset-xl-2 image wow fadeInUp"  data-wow-delay=".7s">
-        <img src="images/about.jpg" class="about-image" alt="">
-        <img src="images/dotted.png" class="dotted" alt="">
+        <img src="/images/about.jpg" class="about-image" alt="">
+        <img src="/images/dotted.png" class="dotted" alt="">
       </div>
     </div> <!-- row end -->
   
@@ -237,7 +238,7 @@
             <i class="flaticon flaticon-024-office"></i>
             <div class="right-content">
               <h4 class="title">Design</h4>
-              <p>디자인에 대한 감각, 특히 편집에 대한 감각이 뛰어납니다.</p>
+              <p>I have a strong sense for design, especially when it comes to editing.</p>
             </div>
         </div>
       <!-- a service -->  
@@ -245,7 +246,7 @@
         <i class="flaticon flaticon-046-profile"></i>
         <div class="right-content">
           <h4 class="title">Responsibility</h4>
-          <p>단 한번도 마감을 어겨본 적 없을 정도로, 책임감에 있어서는 확실합니다.</p>
+          <p>I am so reliable when it comes to responsibility that I have never missed a deadline, not even once.</p>
         </div>
       </div>
       <!-- a service -->  
@@ -253,7 +254,7 @@
         <i class="flaticon flaticon-008-person"></i>
         <div class="right-content">
           <h4 class="title">Development</h4>
-          <p>개발도 어느정도 스크립팅이 가능할 수준으로 가능합니다. Web, 언리얼 엔진 사용 경험 있음.</p>
+          <p>I am also capable of web development and have experience using both Web and Unreal Engine.</p>
         </div>
       </div>
       <!-- a service -->  
@@ -261,7 +262,7 @@
         <i class="flaticon flaticon-030-network"></i>
         <div class="right-content">
           <h4 class="title">Network Systems</h4>
-          <p>프리미어부터 누크까지, 다양한 소프트웨어에 대한 사용 경험이 있습니다.</p>
+          <p>I have experience using various software, from Premiere to Nuke.</p>
         </div>
       </div>
       <!-- a service -->  
@@ -269,7 +270,7 @@
         <i class="flaticon flaticon-048-bulb"></i>
         <div class="right-content">
           <h4 class="title">Brainstroming</h4>
-          <p>무드보드, 스토리보드 제작부터 연출까지, 프리부터 포스트까지 다 가능합니다.</p>
+          <p>I am capable of everything from creating mood boards and storyboards to directing, as well as handling pre-production and post-production.</p>
         </div>
       </div>
       <!-- a service -->  
@@ -277,7 +278,7 @@
         <i class="flaticon flaticon-018-laptop"></i>
         <div class="right-content">
           <h4 class="title">Communication</h4>
-          <p>다년간의 현장 경험, 작업 경험으로 클라이언트 및 동료들과 원활한 소통이 가능합니다.</p>
+          <p>With years of field experience and work experience, I am able to communicate smoothly with clients and colleagues.</p>
         </div>
       </div>
     </div>
@@ -301,8 +302,8 @@
             <span class="month">Oct, 2016</span>
           </div>
           <div class="news-content">
-            <div class="article-category">전자신문</div>
-            <h4 class="news-title">“답장 없는 너…VR로 편지 썼어, 보고 있니?”</h4>
+            <div class="article-category">Electro News</div>
+            <h4 class="news-title">"Are you there, unresponsive you... I wrote a letter in VR, are you watching?"</h4>
           </div>
         </div>
       </a>
@@ -315,8 +316,8 @@
             <span class="month">July, 2020</span>
           </div>
           <div class="news-content">
-            <div class="article-category">스포츠월드</div>
-            <h4 class="news-title">인디밴드 슈퍼젤리킹, 디지털 싱글 ‘Obirah’ 발매</h4>
+            <div class="article-category">Sports World</div>
+            <h4 class="news-title">Indie Band "SuperJellyKing", Released Digital Single ‘Obirah’</h4>
           </div>
         </div>
       </a>
@@ -356,7 +357,7 @@
                 </div>
                 <div class="contact-info address">
                   <span>Phone</span>
-                  <p> +82)10-9514-5560</p>
+                  <p> +61)456 700 883</p>
                 </div>
                 <div class="contact-info">
                   <span>SNS</span>
@@ -399,21 +400,21 @@
     </div>
     <!-- MAP -->
     <div class="map wow fadeInUp" data-wow-delay="1s">
-        <iframe src="https://maps.google.com/maps?q=79-12,%20Sadang-ro%2016-gil,%20Dongjak-gu,%20Seoul&t=&z=13&ie=UTF8&iwloc=&output=embed" style="border:none;"></iframe>
+        <iframe src="https://www.google.com/maps/embed/v1/place?q=8+Sutherland+Street,+Melbourne+VIC,+Australia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" style="border:none;"></iframe>
         
     </div>
 </section>
 
 <div id="clone-image">
   <div class="page-container">
-    <div class="page" data-src="images/works/work-1/01.jpg" style="background-image:url(images/works/work-1/01.jpg)"></div>
-    <div class="page" data-src="images/works/work-2/01.jpg" style="background-image:url(images/works/work-2/01.jpg)"></div>
-    <div class="page" data-src="images/works/work-1/01.jpg" style="background-image:url(images/works/work-3/01.jpg)"></div>
-    <div class="page" data-src="images/works/work-1/01.jpg" style="background-image:url(images/works/work-4/01.jpg)"></div>
-    <div class="page" data-src="images/works/work-1/01.jpg" style="background-image:url(images/works/work-5/01.jpg)"></div>
-    <div class="page" data-src="images/works/work-1/01.jpg" style="background-image:url(images/works/work-6/01.jpg)"></div>
-    <div class="page" data-src="images/works/work-1/01.jpg" style="background-image:url(images/works/work-7/01.jpg)"></div>
-    <div class="page" data-src="images/works/work-1/01.jpg" style="background-image:url(images/works/work-8/01.jpg)"></div>
+    <div class="page" data-src="/images/works/work-1/01.jpg" style="background-image:url(/images/works/work-1/01.jpg)"></div>
+    <div class="page" data-src="/images/works/work-2/01.jpg" style="background-image:url(/images/works/work-2/01.jpg)"></div>
+    <div class="page" data-src="/images/works/work-3/01.jpg" style="background-image:url(/images/works/work-3/01.jpg)"></div>
+    <div class="page" data-src="/images/works/work-1/01.jpg" style="background-image:url(/images/works/work-4/01.jpg)"></div>
+    <div class="page" data-src="/images/works/work-1/01.jpg" style="background-image:url(/images/works/work-5/01.jpg)"></div>
+    <div class="page" data-src="/images/works/work-1/01.jpg" style="background-image:url(/images/works/work-6/01.jpg)"></div>
+    <div class="page" data-src="/images/works/work-1/01.jpg" style="background-image:url(/images/works/work-7/01.jpg)"></div>
+    <div class="page" data-src="/images/works/work-1/01.jpg" style="background-image:url(/images/works/work-8/01.jpg)"></div>
   </div>
 </div>
 
@@ -435,9 +436,9 @@
 </div>
 
 <!-- Javascripts -->
-<script src="js/jquery-3.5.0.min.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
+<script src="/js/jquery-3.5.0.min.js"></script>
+<script src="/js/plugins.js"></script>
+<script src="/js/main.js"></script>
 
 </body>
 </html>

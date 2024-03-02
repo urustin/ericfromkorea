@@ -7,11 +7,12 @@ var phoneResult = parser.getResult().device.type;
 console.log(parser.getResult());
 
 function ajaxLoad() {
-  // if(phoneResult == "mobile"){ phone check, but after video, it looks too slow so just removed it.
+  // phone check, but after video, it looks too slow so just removed it.
+  // if(phoneResult == "mobile"){ 
   if(true){
     $("#magic-cursor").css("opacity","0");
     // mouse_move();
-    // animate_button();
+    animate_button();
     
   }
   
@@ -747,3 +748,12 @@ function carousel() {
 
 
 
+
+function tempError(){
+  if(window.location.href.includes("ko")){
+    alert("현재 수정중입니다! 이메일로 연락주시면 빠르게 응답하겠습니다!")
+  }else{
+    alert("It's on maintenace now. Could you contact with email please?")
+  }
+  
+}

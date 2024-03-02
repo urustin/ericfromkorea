@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="/css/style.css"/>
 
   	<!--[if lt IE 9]>
   	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -16,16 +16,30 @@
   	<![endif]--> 
     
     <!-- FAVICON  -->
-    <link rel="shortcut icon" href="img/favico.png">    
+    <!-- <link rel="shortcut icon" href="/img/favico.png">     -->
 
   	<!-- Font icons --> 
-    <link rel="stylesheet" href="icon-fonts/fontawesome-5.12.0/css/all.min.css"/>
-    <link rel="stylesheet" type="text/css" href="icon-fonts/flaticon/flaticon.css" />
+    <link rel="stylesheet" href="/icon-fonts/fontawesome-5.12.0/css/all.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/icon-fonts/flaticon/flaticon.css" />
 
 	   <!--Font -->
     <link rel="stylesheet" href="https://use.typekit.net/utg8fym.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800&display=swap" rel="stylesheet">
 
+    <link rel="alternate" hreflang="ko" href="./ko/index.html" />
+    <script>
+        var type=navigator.appName
+        if (type=="Netscape")
+        var lang = navigator.language
+        else
+        var lang = navigator.userLanguage
+        // 국가코드에서 앞 2글자만 자름
+        var lang = lang.substr(0,2)
+        //한국
+        if (lang === "ko") window.location.replace('./ko/index.html')
+        // 한국 이외
+        // do nothing
+    </script>
 </head> 
 <body> 
 
@@ -44,7 +58,7 @@
 </a> -->
 
 <div class="hamburger icon-wrap">
-<div class=" button-icon">
+<div class="button-icon">
   <span></span>
   <span></span>
 </div>
@@ -75,14 +89,14 @@
         <video loop="" muted="" playsinline autoplay style="opacity: 0.5;">
            
           <!-- <source src="./images/works/main/demo02.mp4" type="video/mp4"> -->
-          <source src="./images/works/main/demo01.webm" type="video/webm">
+          <source src="/images/works/main/demo01.webm" type="video/webm">
        </video>  
       </div> 
       <div class="inner" style="width: 90%;">
         <span class="hero-little">Hello World! My name is Eric.</span>
-        <h1 class="hero-title">Make digital <br> <span id="element" data-typist="experiences,things">products</span>.</h1>
+        <h1 class="hero-title">Pursuing <br> <span id="element" data-typist="Vision,Growth">Great Teamwork</span>.</h1>
         
-       <div class="hero-image overlay" style="background-image: url(images/works/work-1/none.jpg)"></div>
+       <div class="hero-image overlay" style="background-image: url(/images/works/work-1/none.jpg)"></div>
         <div class="arrow icon-wrap">
           <svg class="arrow-svg button-icon" xmlns="http://www.w3.org/2000/svg" width="14.486" height="18.412" viewBox="0 0 14.486 18.412">
           <path d="M7.073,26.241h0L0,19.172l1.414-1.415,4.829,4.829V8h2V22.586l4.829-4.829,1.415,1.415-7.241,7.24Z" transform="translate(0 -8)"></path>
@@ -113,8 +127,8 @@
       <!-- a work -->
       <a href="./work-1.html" class="col-xl-4 col-md-6 grid-item cg wow fadeInUp" data-wow-delay="0.4s" data-title="LG Stretchable Display" data-type="ajax-load">
           <figure class="portfolio-item 3d">                 
-            <div class="image" style="background-image:url(images/works/work-1/01.jpg)">     
-                <img src="images/works/work-1/01.jpg" alt=""/>
+            <div class="image" style="background-image:url(/images/works/work-1/01.jpg)">     
+                <img src="/images/works/work-1/01.jpg" alt=""/>
             </div>
             <div class="item-cat-mask">
               <span>3D</span>
@@ -131,8 +145,8 @@
                       <source src="images/works/work-2/01.webm" type="video/webm">
                 </video>   
               </div>   -->                 
-            <div class="image" style="background-image:url(images/works/work-2/01.jpeg)">     
-              <img src="images/works/work-2/01.jpeg" alt=""/>
+            <div class="image" style="background-image:url(/images/works/work-2/01.jpeg)">     
+              <img src="/images/works/work-2/01.jpeg" alt=""/>
           </div>
               <div class="item-cat-mask">
                 <span>3D</span>
@@ -143,8 +157,8 @@
           <!-- a work -->
           <a href="work-3.html" class="col-xl-4 col-md-6 grid-item cg wow fadeInUp" data-wow-delay="0.6s" data-title="IDEA" data-type="ajax-load">
               <figure class="portfolio-item">            
-                <div class="image"  style="background-image:url(images/works/work-3/02.jpg)">     
-                    <img src="images/works/work-3/02.jpg" alt=""/>
+                <div class="image"  style="background-image:url(/images/works/work-3/02.jpg)">     
+                    <img src="/images/works/work-3/02.jpg" alt=""/>
                 </div> 
                 <div class="item-cat-mask">
                   <span>3D</span>
@@ -155,8 +169,8 @@
             <!-- a work -->
             <a href="work-4.html" class="col-xl-4 col-md-6 grid-item etc wow fadeInUp" data-wow-delay=".7s" data-title="Avatar Singer" data-type="ajax-load">
                 <figure class="portfolio-item">                 
-                  <div class="image" style="background-image:url(images/works/work-4/01.jpg)">     
-                      <img src="images/works/work-4/01.jpg" alt=""/>
+                  <div class="image" style="background-image:url(/images/works/work-4/01.jpg)">     
+                      <img src="/images/works/work-4/01.jpg" alt=""/>
                   </div>
                   <div class="item-cat-mask">
                     <span>ETC </span>
@@ -165,10 +179,10 @@
                 </figure>
               </a>
               <!-- a work -->
-              <a href="work-5.html" class="col-xl-4 col-md-6 grid-item color wow fadeInUp" data-wow-delay=".8s" data-title="The Ripple" data-type="ajax-load">
+              <a href="./work-5.html" class="col-xl-4 col-md-6 grid-item color wow fadeInUp" data-wow-delay=".8s" data-title="The Ripple" data-type="ajax-load">
                   <figure class="portfolio-item">                 
-                    <div class="image" style="background-image:url(images/works/work-5/01.jpg)">     
-                        <img src="images/works/work-5/01.jpg" alt="" />
+                    <div class="image" style="background-image:url(/images/works/work-5/01.jpg)">     
+                        <img src="/images/works/work-5/01.jpg" alt="" />
                     </div>
                     <div class="item-cat-mask">
                       <span>Color Grading </span>
@@ -177,10 +191,10 @@
                   </figure>
                 </a>
                 <!-- a work -->
-                <a href="work-6.html" class="col-xl-4 col-md-6 grid-item etc wow fadeInUp" data-wow-delay=".9s" data-title="SMTM777" data-type="ajax-load">
+                <a href="./work-6.html" class="col-xl-4 col-md-6 grid-item etc wow fadeInUp" data-wow-delay=".9s" data-title="SMTM777" data-type="ajax-load">
                   <figure class="portfolio-item">                 
-                    <div class="image" style="background-image:url(images/works/work-6/01.jpg)">     
-                        <img src="images/works/work-6/01.jpg" alt=""/>
+                    <div class="image" style="background-image:url(/images/works/work-6/01.jpg)">     
+                        <img src="/images/works/work-6/01.jpg" alt=""/>
                     </div>
                     <div class="item-cat-mask">
                       <span>ETC</span>
@@ -188,7 +202,7 @@
                     </div>
                   </figure>
                 </a>  
-  </div> <!--  masonry end -->
+              </div> <!--  masonry end -->
               <!-- pagination -->
               <div class="text-center load-more top_45 bottom_60 wow fadeInUp" data-wow-delay="1.2s">
                 <button class="site-btn" data-tilt> Load more
@@ -227,8 +241,8 @@
       </div>
       <!-- right image -->
       <div class="col-xl-4 offset-xl-2 image wow fadeInUp"  data-wow-delay=".7s">
-        <img src="images/about.jpg" class="about-image" alt="">
-        <img src="images/dotted.png" class="dotted" alt="">
+        <img src="/images/about.jpg" class="about-image" alt="">
+        <img src="/images/dotted.png" class="dotted" alt="">
       </div>
     </div> <!-- row end -->
   
@@ -391,7 +405,7 @@
                 </div>
                 <!-- button -->
                 <div class="form-btn">
-                  <input class="site-btn" type="submit" value="Sent it">
+                  <input class="site-btn" type="submit" value="Sent it" onclick="tempError()">
                 </div>
               </form>
           </div>
@@ -407,14 +421,14 @@
 
 <div id="clone-image">
   <div class="page-container">
-    <div class="page" data-src="images/works/work-1/01.jpg" style="background-image:url(images/works/work-1/01.jpg)"></div>
-    <div class="page" data-src="images/works/work-2/01.jpg" style="background-image:url(images/works/work-2/01.jpg)"></div>
-    <div class="page" data-src="images/works/work-1/01.jpg" style="background-image:url(images/works/work-3/01.jpg)"></div>
-    <div class="page" data-src="images/works/work-1/01.jpg" style="background-image:url(images/works/work-4/01.jpg)"></div>
-    <div class="page" data-src="images/works/work-1/01.jpg" style="background-image:url(images/works/work-5/01.jpg)"></div>
-    <div class="page" data-src="images/works/work-1/01.jpg" style="background-image:url(images/works/work-6/01.jpg)"></div>
-    <div class="page" data-src="images/works/work-1/01.jpg" style="background-image:url(images/works/work-7/01.jpg)"></div>
-    <div class="page" data-src="images/works/work-1/01.jpg" style="background-image:url(images/works/work-8/01.jpg)"></div>
+    <div class="page" data-src="/images/works/work-1/01.jpg" style="background-image:url(/images/works/work-1/01.jpg)"></div>
+    <div class="page" data-src="/images/works/work-2/01.jpg" style="background-image:url(/images/works/work-2/01.jpg)"></div>
+    <div class="page" data-src="/images/works/work-3/01.jpg" style="background-image:url(/images/works/work-3/01.jpg)"></div>
+    <div class="page" data-src="/images/works/work-1/01.jpg" style="background-image:url(/images/works/work-4/01.jpg)"></div>
+    <div class="page" data-src="/images/works/work-1/01.jpg" style="background-image:url(/images/works/work-5/01.jpg)"></div>
+    <div class="page" data-src="/images/works/work-1/01.jpg" style="background-image:url(/images/works/work-6/01.jpg)"></div>
+    <div class="page" data-src="/images/works/work-1/01.jpg" style="background-image:url(/images/works/work-7/01.jpg)"></div>
+    <div class="page" data-src="/images/works/work-1/01.jpg" style="background-image:url(/images/works/work-8/01.jpg)"></div>
   </div>
 </div>
 
@@ -436,9 +450,9 @@
 </div>
 
 <!-- Javascripts -->
-<script src="js/jquery-3.5.0.min.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
+<script src="/js/jquery-3.5.0.min.js"></script>
+<script src="/js/plugins.js"></script>
+<script src="/js/main.js"></script>
 
 </body>
 </html>
